@@ -94,3 +94,10 @@ git diff # Para salir del comando si la consola queda bloqueada es presionar la 
 git log
 git log --oneline # Me devuelve la info mas simplificada de los commit
 ```
+
+## Para recuperar archivos si se dañan o alguien nos lo daña
+```sh
+git restore nombre del archivo
+git restore clase.01/README.md
+git restore . # Para recuperar los archivos de todo el proyecto
+```
