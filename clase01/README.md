@@ -87,3 +87,9 @@ git commit -m "Esto es mi primer commit!"
 ```sh
 git diff # Para salir del comando si la consola queda bloqueada es presionar la letra "q"
 ```
+
+## Me devuelve todos los commit que tengo
+
+```sh
+git log
+```
