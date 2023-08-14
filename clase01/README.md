@@ -66,3 +66,24 @@ git status
 * Staged => Archivos que fueron agregados al index/stage area y cuyos cambios van a ser incorporados al repositorio.
 * Unmodified => Archivos que se encuentran en el repositorio y que no fueron modificados (con respecto al repositorio).
 * Modified => Archivos que se encuentran en el repositorio pero difieren con lo que se encuentra actualmente en el directorio de trabajo (Working directory).
+
+
+## Para pasar un archivo del Working Directory al Staging Srea
+
+```sh
+git add nombre-archivo
+git add clase.01/README.md
+```
+
+## Para pasar del Staging Area al Local Repo
+
+```sh
+git commit -m "mensaje descriptivo del contenido del commit"
+git commit -m "Esto es mi primer commit!"
+```
+
+## Para ver la diferencia entre el Working Directory y el Local Repo al agregar algo cuando ya esta en el Local Repo
+
+```sh
+git diff # Para salir del comando si la consola queda bloqueada es presionar la letra "q"
+```
