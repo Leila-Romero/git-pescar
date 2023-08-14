@@ -92,4 +92,5 @@ git diff # Para salir del comando si la consola queda bloqueada es presionar la 
 
 ```sh
 git log
+git log --oneline # Me devuelve la info mas simplificada de los commit
 ```
