@@ -71,3 +71,23 @@ git switch <nombre-rama>
 git switch nb
 ```
 
+## Para cambiar entre las ultimas 2 ramas
+
+```sh
+git switch -
+```
+
+## Para traer lo que hay en la rama creada (nb) a la rama principal (main). Tenemos que estar parados en la rama principal a la hora de ejecutar este comando.
+
+```sh
+git merge <nombre-rama-a-traer>
+git merge nb
+```
+
+## Borro una rama que ya no voy a utilizar
+
+```sh
+git branch -d <nombre-de-la-rama>
+git branch -d nb
+git branch -D nb # Si le pongo la "D" mayuscula le estoy diciendo que lo borre porque estoy segura
+```
