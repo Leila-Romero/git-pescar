@@ -38,3 +38,14 @@ git remote add origin <url-del-repositorio-remoto>
 git remote
 git remote -v #para mostrarme mas detalles
 ```
+## COMMIT --AM: Esto me permite realizar un commit, si mi proyecto esta en el repo remoto y no tengo que utilizar git add . ###Solo Sirve si en el git status aparece mi archivo modified:
+
+```sh
+git commit -am <mensaje>
+git commit -am "Agrego data sobre el git remote"
+```
+> Luego para llevar este commit al remoto utilizo el push
+```sh
+git push
+```
+
