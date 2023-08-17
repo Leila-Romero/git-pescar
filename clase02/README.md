@@ -19,3 +19,8 @@ git clone ruta/url del repo . #El punto es importante para decirle que no cree u
 ```
 ## .gitignore: me permite descartar archivos que no quiero que formen parte del repositorio.
 Para eso tengo que crear en general un archivo nuevo llamado ".gitignore" y colorcarle el nombre de carpeta y/o archivo que quiero que ignore
+
+## Me permite corregir el ultimo commit ya creado o agregarle mas informacion a ese mismo que puse en el codigo y no quiero crear otro commit
+```sh
+git commit --amend -m "Vuelvo a escribir el commit"
+```
