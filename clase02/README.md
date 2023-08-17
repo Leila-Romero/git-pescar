@@ -27,3 +27,14 @@ git commit --amend -m "Vuelvo a escribir el commit"
 
 ## GITKEEP: Me permite seguir carpetas vacias
 Git no versiona carpetas. Si yo quisiera que git siga una carpeta tengo que crear un archivo llamado por la comunidad .gitkeep
+
+## REMOTE: Me permite agregar la url del repositorio remoto(github) en el local para luego subir los cambios
+
+```sh
+git remote add origin <url-del-repositorio-remoto>
+```
+> Visualizar si mi repo local tiene remotos
+```sh
+git remote
+git remote -v #para mostrarme mas detalles
+```
