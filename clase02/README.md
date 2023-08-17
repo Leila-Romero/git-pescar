@@ -1,6 +1,6 @@
 # Clase 02
 
-## Otras formar de colocar en el staging area los archivos(dividir el codigo de un mismo commit en dos partes)
+## PATCHED: Otras formar de colocar en el staging area los archivos(dividir el codigo de un mismo commit en dos partes)
 
 ```sh
 git add -p # git add --patch
@@ -12,15 +12,18 @@ git add -p # git add --patch
 * e: editar manualmente el hunk (Tengo que comentar la linea que no quiero que pase al staging area con #)
 * ?: ayuda/help
 
-## Clonar el repositorio (completo con la historia de todos los commit)
+## CLONE: Clonar el repositorio (completo con la historia de todos los commit)
 
 ```sh
 git clone ruta/url del repo . #El punto es importante para decirle que no cree una carpeta si no que lo baje en el directorio actual
 ```
-## .gitignore: me permite descartar archivos que no quiero que formen parte del repositorio.
+## .GITIGNORE: me permite descartar archivos que no quiero que formen parte del repositorio.
 Para eso tengo que crear en general un archivo nuevo llamado ".gitignore" y colorcarle el nombre de carpeta y/o archivo que quiero que ignore
 
-## Me permite corregir el ultimo commit ya creado o agregarle mas informacion a ese mismo que puse en el codigo y no quiero crear otro commit
+## AMEND: Me permite corregir el ultimo commit ya creado o agregarle mas informacion a ese mismo que puse en el codigo y no quiero crear otro commit
 ```sh
 git commit --amend -m "Vuelvo a escribir el commit"
 ```
+
+## GITKEEP: Me permite seguir carpetas vacias
+Git no versiona carpetas. Si yo quisiera que git siga una carpeta tengo que crear un archivo llamado por la comunidad .gitkeep
