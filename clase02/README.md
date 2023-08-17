@@ -49,3 +49,25 @@ git commit -am "Agrego data sobre el git remote"
 git push
 ```
 
+# GIT BRANCHES (Ramas)
+
+## Crear ramas
+
+```sh
+git branch <nombre-rama>
+git branch nb
+```
+
+## Listar ramas
+
+```sh
+git branch
+```
+
+## Moverme a una rama (cambiar de rama)
+
+```sh
+git switch <nombre-rama>
+git switch nb
+```
+
