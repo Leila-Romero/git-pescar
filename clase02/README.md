@@ -17,3 +17,6 @@ git add -p # git add --patch
 ```sh
 git clone ruta/url del repo . #El punto es importante para decirle que no cree una carpeta si no que lo baje en el directorio actual
 ```
+
+## .gitignore: me permite descartar archivos que no quiero que formen parte del repositorio.
+Para eso tengo que crear en general un archivo nuevo llamado ".gitignore" y colorcarle el nombre de carpeta y/o archivo que quiero que ignore
