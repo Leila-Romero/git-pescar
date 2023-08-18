@@ -60,3 +60,9 @@ git stash drop stash stash@{2}
 git stash drop stash stash@{3}
 ```
 
+## FETCH 
+Me traigo la metadata del repositorio remoto al local. Actualizo la carpeta (.git)
+
+```sh
+git fetch
+```
