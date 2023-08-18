@@ -21,3 +21,20 @@ git merge --abort
 * Fast-fodward (no hay ningun conflicto, se hace de manera automatica)
 * Recursivo (ort-strategy) (No hay ningun conflicto, se hace de manera automatica)
 * Manual (Conflictos y vamos a tener que resolverlos manualmente indicandole a git que lo hicimos con un nuevo commit)
+
+
+## GIT STASH
+Permite registrar temporalmente los cambios que aun no fueron comiteados (guardados dentro del repo) (Cambios que estan en el WORKING DIRECTORY o STAGING AREA) guardarlos para dentro de un area temporal paraseguir trabajando luego.
+Los stash solo quedan local (estan almacenados dentro de la carpeta .git)
+
+```sh
+git stash 
+```
+
+## Para recuperar el git stash guardado
+
+```sh
+git stash pop
+```
+
+
