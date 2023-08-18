@@ -91,3 +91,35 @@ git branch -d <nombre-de-la-rama>
 git branch -d nb
 git branch -D nb # Si le pongo la "D" mayuscula le estoy diciendo que lo borre porque estoy segura
 ```
+
+## Creo una rama y me muevo a ella
+
+```sh
+git switch -c <nombre-rama>
+git switch -c dev
+```
+
+## Subir una rama al repo remoto
+
+```sh
+git push origin <nombre-rama>
+git push origin dev
+```
+
+## Para listar las ramas del remoto
+
+```sh
+git branch -
+```
+
+## Para listar todas las ramas (locales y remotas)
+
+```sh
+git branch -a
+```
+
+## Para listar las ramas del remoto
+
+```sh
+git branch -r
+```
