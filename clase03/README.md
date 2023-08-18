@@ -27,14 +27,36 @@ git merge --abort
 Permite registrar temporalmente los cambios que aun no fueron comiteados (guardados dentro del repo) (Cambios que estan en el WORKING DIRECTORY o STAGING AREA) guardarlos para dentro de un area temporal paraseguir trabajando luego.
 Los stash solo quedan local (estan almacenados dentro de la carpeta .git)
 
+
+### Crear un stash
+
 ```sh
 git stash 
 ```
+### Listar los stash
 
-## Para recuperar el git stash guardado
+```sh
+git stash list
+```
+### Para recuperar el ultimo stash guardado. No puede recuperar todos los guardados en la lista unicamente el ultimo. Elimina ese stash de la lista.
 
 ```sh
 git stash pop
 ```
 
+### Recuperar todos los stash guardados en la lista o el que yo quiera tener. No elimina el stash de la lista.
+
+```sh
+git stash apply stash@{1}
+git stash apply stash@{2}
+git stash apply stash@{3}
+```
+
+### Para eliminar un stash 
+
+```sh
+git stash drop stash stash@{1}
+git stash drop stash stash@{2}
+git stash drop stash stash@{3}
+```
 
